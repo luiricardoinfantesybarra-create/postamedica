@@ -20,4 +20,6 @@ Route::get('login/google/callback',
 [App\Http\Controllers\Auth\LoginController::class, 'handleGoogleCallback']);
 Route::middleware(['auth'])->get('/dashboard', function () {
     return view('dashboard');
+    //
+    //
 });
