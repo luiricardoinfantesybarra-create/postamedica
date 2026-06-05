@@ -9,8 +9,10 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])
-->name('home');
+// Ahora /home cargará directamente tu interfaz celeste personalizada
+Route::get('/home', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('home');
 
 Route::get('login/google', 
 [App\Http\Controllers\Auth\LoginController::class, 'redirectToGoogle']);
