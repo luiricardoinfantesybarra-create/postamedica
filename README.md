@@ -58,4 +58,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-oe apestoso saca la cuenta mrd
+## OE APESTOSO CIERRA LA CUENTA SIEMPRE Q SALGAS MRD, POR MENS COMO TU CANCELARON LOS TELETUBBIES
